@@ -1,0 +1,2 @@
+# RxPlayer
+ Rx Player is a digital music player that aims to provide millions of high-quality songs from any of the countries around the world. Rx Player also provides all kinds of genres so that the user can enjoy the music around the world. Besides that, the user can also be the creator that can upload their song to the Rx Player and share that song privately or publicly. By this project, we planned to make a good design that will make our users interested to use our website and hope satisfied with the features inside.
