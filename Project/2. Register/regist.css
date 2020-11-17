@@ -1,0 +1,73 @@
+h1 {
+    padding-top: 1%;
+    padding-bottom: 1.7%;
+    text-align: center;
+    font-size: 53.3px;
+    font-weight: 800;
+    color: #bf9663;
+}
+
+.form-regist {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.form-regist input[type=radio],input[type=checkbox] {
+    margin: 0.5rem 0 0.5rem 0;
+    
+}
+
+.form-regist input[type=text], input[type=password] {
+    margin: 0.5rem;
+    width: 20rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 15px;
+    opacity: 30%;
+}
+
+.form-regist input[type=text]:hover, input[type=password]:hover {
+    opacity: 100%;
+}
+
+.form-regist .submit-btn {
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color: #f2efe9;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color .5s;
+    border-radius: 15px;
+}
+
+.form-regist .submit-btn:hover {
+    border-radius: 15px;
+    color: #bf9663;
+    background: #26011c;
+    box-shadow: 0 0 5px 0px #bf9663, 0 0 10px 0px #d39a55, 0 0 10px 0px #eb8e1e;
+}
+
+
+@media screen and (max-width:400px){
+    h1 {
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .form-regist input[type=text], input[type=password] {
+        margin: 0.5rem;
+        width: 15rem;
+        height: 2rem;
+        text-align: center;
+        font-size: 15px;
+        opacity: 30%;
+    }
+
+}
+
+@media screen and (max-width:320px){
+    
+}

@@ -1,0 +1,112 @@
+
+.top10title{
+    text-align: center;
+    font-size: 53.3px;
+    font-weight: 800;
+    color: #bf9663;
+}
+
+.top10title:hover{
+    border-radius: 15px;
+    color: #bf9663;
+    background: #26011c;
+    box-shadow: 0 0 5px 0px #bf9663, 0 0 10px 0px #d39a55, 0 0 10px 0px #eb8e1e;
+}
+
+.container{
+    width: 95%;
+    background: whitesmoke;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.container ul{
+    padding: 0px;
+    margin: 0px;
+} 
+
+.container ul li{
+    border-radius: 25px;
+    list-style: none;
+    width: 30%;
+    height: 100px;
+    background-color: rgb(156, 176, 194);
+    border: whitesmoke;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+    margin: 30px auto;
+}
+
+.container ul li:hover{
+    border-radius: 15px;
+    background-color: rgb(115, 233, 217);
+    box-shadow: 0 0 5px 0px #606ddf, 0 0 10px 0px #1328e6, 0 0 10px 0px #260466;
+
+}
+
+.content{
+    text-align: center;
+    font-size: 95%;
+    padding: 40px;
+    color: rgb(9, 9, 36);
+    margin: auto;
+    
+}
+
+.photo{
+    width: 20%;
+    height: 75%;
+    margin: 13px 0px 0px 30px;
+    padding: 10px;
+    float: left;
+}
+
+@media screen and (max-width:1080px){
+    .container ul li{
+        border-radius: 25px;
+        list-style: none;
+        width: 50%;
+        height: 100px;
+        background-color: rgb(156, 176, 194);
+        border: whitesmoke;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+        margin: 20px auto;
+    }
+
+    .content{
+        text-align: center;
+        font-size: 93%;
+        padding: 40px;
+        color: rgb(9, 9, 36);
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width:570px){
+    .container ul li{
+        border-radius: 25px;
+        list-style: none;
+        width: 95%;
+        height: 100px;
+        background-color: rgb(156, 176, 194);
+        border: whitesmoke;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+        margin: 20px auto;
+    }
+
+    .content{
+        text-align: center;
+        font-size: 70%;
+        padding: 40px;
+        color: rgb(9, 9, 36);
+        margin: auto;
+    }
+
+    .photo{
+        width: 30%;
+        height: 75%;
+        margin: 13px 0px 0px 30px;
+        padding: 10px;
+        float: left;
+    }
+}

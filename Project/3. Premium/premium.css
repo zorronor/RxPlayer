@@ -1,0 +1,126 @@
+body {
+    background-color: #f2efe9;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+}
+
+.content {
+    padding: 1rem;
+}
+
+.content h2 {
+    padding-bottom: 2.7%;
+    text-align: center;
+    font-size: 53.3px;
+    font-weight: 800;
+    color: #bf9663;
+}
+
+.content .card-box {
+    display: flex;
+    justify-content: center;
+
+}
+
+.content .card-box .card {
+    margin: .5rem 2rem;
+    min-width: 13rem;
+    height: 22rem;
+    background-color: #f2efe9;
+    border: 2px solid #26011c;
+    box-shadow: 1px 1px 15px grey;
+    border-radius: 2rem;
+}
+
+.content .card-box .card h3 {
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    padding: .5rem;
+    background-color: black;
+    color: white;
+}
+
+.content .card-box .card p{
+    font-weight: 700;
+    font-size: 15px;
+    margin: .1rem;
+    text-align: center;
+}
+
+.content .card-box .card .x {
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: 2.5rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.content .card-box .card .price {
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 1.5rem;
+    color: red;
+    text-align: center;
+}
+
+.content .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.content .wrap a {
+    text-align: center;
+    padding: 1rem;
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    border: none;
+    background-color: #f2efe9;
+    transition: background-color .5s;
+}
+
+.content .wrap a:hover {
+    border-radius: 15px;
+    color: #bf9663;
+    background: #26011c;
+    box-shadow: 0 0 5px 0px #bf9663, 0 0 10px 0px #d39a55, 0 0 10px 0px #eb8e1e;
+}
+
+@media screen and (max-width:800px) {
+    .content .card-box .card {
+        margin: .5rem .2rem;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .content .card-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width:420px) {
+    h1 {
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+
+}
